@@ -11,7 +11,7 @@ function CadastroCategoria(){
         ir para home
       </Link>
    </PageDefault>
-  );
+  )
 }
 
 export default CadastroCategoria;
