@@ -1,9 +1,13 @@
 import React from "react";
 
 function FormField({ label, type, name, value, onChange }) {
+    const fieldId = `id_${name}`;
+
   return (
     <div>
-      <label>
+      <label
+        htmlFor={fieldId}
+      >
         {label}: 
         <input
           type={type}
