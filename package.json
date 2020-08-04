@@ -23,8 +23,7 @@
     "server:static": "json-server --watch ./src/data/db.json --port 8080",
     "server": "node ./server.js"
   },
-  //USA NPM RUN DEV PRA RODAR A PORTA 3000 E A 8080 AO MESMO TEMPO. usa a bibliteca do concurrently pra isso
-
+  
   "eslintConfig": {
     "extends": "react-app"
   },
