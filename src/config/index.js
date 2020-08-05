@@ -5,3 +5,5 @@ const URL_BACKEND_TOP = window.location.hostname.includes('localhost')
 export default {
   URL_BACKEND_TOP,
 };
+
+//colocar https://devbruflix.herokuapp.com/categorias depois do deploy pra ver o bd
