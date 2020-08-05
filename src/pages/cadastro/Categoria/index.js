@@ -32,7 +32,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     if(window.location.href.includes('localhost')) {
-      const URL = 'https://devbruflix.herokuapp.com/categorias'; 
+      const URL = 'https://devbruflix.herokuapp.com/categorias';  // quando usar a view do heroku tem que por o /categorias pra ele mostrar o caminho
       fetch(URL)
        .then(async (respostaDoServer) =>{
         if(respostaDoServer.ok) {
